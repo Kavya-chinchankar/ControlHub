@@ -1,0 +1,80 @@
+<!-- <% include('../layouts/header.ejs')  %> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget Password</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+</head>
+<body style="background-color: #f1f1f1;">
+
+    <section class="p-3 p-md-4 p-xl-5" style="background-color: #f1f1f1;">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-xxl-11">
+              <div class="card border-light-subtle shadow-sm">
+                <div class="row g-0">
+                  <div class="col-12 col-md-6">
+                    <img class="img-fluid rounded-start w-80 h-80 object-fit-cover" loading="lazy" src="https://img.freepik.com/free-vector/secure-login-concept-illustration_114360-4511.jpg?t=st=1717839684~exp=1717843284~hmac=9e66273f947f9e28ccca67294d6dbe9155781662cc291c68475b179dd7562604&w=740" alt="Welcome back you've been missed!">
+                  </div>
+                  <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                    <div class="col-12 col-lg-11 col-xl-10">
+                      <div class="card-body p-3 p-md-4 p-xl-5">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="mb-5">
+                              <h2 class="h4 text-center">Forget Password</h2>
+                              <h3 class="fs-6 fw-normal text-secondary text-center m-0">Provide the email address associated with your account to recover your password.</h3>
+    
+                            </div>
+                          </div>
+    
+                        </div>
+    
+                        <form  action="" method="post">
+                          <div class="row gy-3 overflow-hidden">
+    
+                          <% if(typeof message!== 'undefined'){ %>
+                            <div id="messageContainer" class="alert alert-info" role="alert">
+                                <h6 class="fw-normal" style="letter-spacing: 1px;"><%= message %></h6>
+                            </div>
+                        <% } %>
+                        
+                            <div class="col-12">
+                              <div class="form-floating mb-3">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+                                <label for="email" class="form-label">Email</label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="d-grid">
+                                <button class="btn btn-dark btn-lg" type="submit">Send Reset Link</button>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="d-flex gap-2 gap-md-4 flex-column flex-md-row justify-content-md-center mt-5">
+                              <a href="/admin" class="link-secondary text-decoration-none">Login</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+</body>
+</html>

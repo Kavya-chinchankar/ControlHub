@@ -1,0 +1,92 @@
+<!-- <% include('../layouts/header.ejs') %> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+
+    </style>
+</head>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+            <a class="btn btn-outline-primary" href="/admin/newhome" style="margin-top: 10px;">
+                < Back </a>
+            
+            <form action="" style="margin-left: 20px; margin-top: 40px; margin-bottom: 20px;">
+                <div class="row gy-3 overflow-hidden">
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" name="search" id="search" placeholder="Search User name, email, mobile" style="padding: 5px;">
+                            <input type="submit" value="Search" class="btn btn-dark mt-2" style="margin-bottom: 15px;">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="table-responsive col-12">
+            <table class="table table-bordered border-dark">
+                <thead>
+                    <tr class="table-primary">
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                        <th>Image</th>
+                        <th>Verified</th>
+                        <th>Action</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <% if(users.length > 0){
+                        for(let i=0; i<users.length; i++){ %>
+                            <tr>
+                                <td><%= users[i].name %></td>
+                                <td><%= users[i].email %></td>
+                                <td><%= users[i].mno %></td>
+                                <td><img src="/userImages/<%= users[i].image %>" alt="<%= users[i].Image %>" width="100px" height="100px"></td>
+                                <td><% if(users[i].is_varified == 0){ %>
+                                    <p>Not Varified</p>
+                                    <% } else{ %>
+                                        <p>Varified</p>
+                                        <% } %></td>
+                                <td>
+                                    <a class="btn btn-primary" href="/admin/edit?id=<%= users[i]._id %>">Edit</a>
+                                    <a class="btn btn-outline-primary" href="/admin/delete-user?id=<%= users[i]._id %>">Delete</a>
+                                </td>
+                            </tr>
+                        <% } } else{ %>
+                            <tr>
+                                <td colspan="6">User Not Found</td>
+                            </tr>
+                        <% } %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <a href="/admin/new_user"> <button  class="btn  btn-primary " type="submit">Add New User</button></a>
+<a href="/admin/export_users"> <button  class="btn  btn-outline-primary" type="submit">Export User</button></a>
+<a href="/admin/export_users-pdf"><button  class="btn  btn-outline-primary" type="submit">Export User in pdf </button></a><br><br>
+
+
+    <% for(let j = 1; j <= totalPages; j++){ %>
+        <a href="?page=<%= j %>"><button  class="btn btn-dark" type="submit"><%= j %></button></a>
+    <% } %>
+</div>
+
+
+<br>
+
+
+</body>
+</html>
+

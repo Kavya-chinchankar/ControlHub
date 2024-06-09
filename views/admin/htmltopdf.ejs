@@ -1,0 +1,64 @@
+
+
+    <div class="container">
+        <div class="row"  style="margin-top: 40px; margin-bottom: 20px;">
+
+
+            <!-- <a class="btn btn-outline-primary" href="/admin/newhome" style="margin-top: 40px; margin-bottom: 20px;"> < Back </a><br><br> -->
+
+            <table width="100%" class="table table-bordered border-dark justify-content-center ">
+                
+                <tr class="table-primary">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Image</th>
+                    <th>Verified</th>
+                    <th>Action</th> 
+                </tr>
+
+                <% if(users.length> 0){
+                    for(let i=0; i<users.length; i++){ %>
+                        <tr>
+                            <td>
+                                <%= users[i].name %>
+                            </td>
+                            <td>
+                                <%= users[i].email %>
+                            </td>
+                            <td><img src="http://localhost:3000/userImages/<%= users[i].image %>" alt="<%= users[i].Image %>" width="100px"
+                                    height="100px"></td>
+                            <!-- <td><%= users[i].is_varified %></td> -->
+                            <td>
+                                <% if(users[i].is_varified==0){ %>
+                                    <p>Not Varified</p>
+                                    <% } else{ %>
+                                        <p>Varified</p>
+                                        <% } %>
+                            </td>
+                            <td>
+                                <!-- <a class="btn btn-primary" href="/admin/varify?id=<%= users[i]._id %>">Done</a> -->
+                                <a class="btn btn-primary" href="/admin/edit?id=<%= users[i]._id %>">Edit</a>
+                                <!-- <a class="btn btn-primary" href="/admin/accecpt?id=<%= users[i]._id %>">Done</a> -->                               
+                                <a class="btn btn-outline-primary" href="/admin/delete-user?id=<%= users[i]._id %>">Delete</a>
+                            </td>
+
+
+                        </tr>
+
+                        <% } } else{ %>
+                            <tr>
+                                <td colspan="5">User Not Found</td>
+                            </tr>
+                            <% } %>
+
+            </table>
+
+
+        </div>
+    </div>
+
+
+
+
+
+       
