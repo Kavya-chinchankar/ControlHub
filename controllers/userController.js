@@ -81,7 +81,7 @@ const sendverifyMail = async(name, email, user_id)=>{
        });
 
        const mailOption = {
-        from:'kavyakchinchu@gmail.com',
+        from:'emailUser',
         to:email,
         subject:'For verification mail',
         html:'<p>Hii '+name+' , Please click here to <a href="http://localhost:3000/varify?id='+user_id+'">Varify</a> Your mail.</p>'
