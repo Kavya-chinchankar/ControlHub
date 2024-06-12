@@ -99,6 +99,16 @@ admin
 
 ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/cbab1e9f-30a4-45c5-ae84-6e154ca8b43d)
 
+## Demo
+
+Click here [CONTROLHUB](https://controlhubkkc.onrender.com)
+
+## Author
+
+- Github: [kavya-chinchankar](https://github.com/Kavya-chinchankar)
+- Linkedin: [kavya-chinchankar](https://www.linkedin.com/in/kavya-chinchankar-8a9289207)
+- Email: [kavya-chinchankar](kavyakrishnachinchankar@gmail.com)
+
 
 
 
