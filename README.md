@@ -10,6 +10,7 @@ Fullstack open source By Admin User Management System application made with Mong
       - [Backend](#backend)
       - [Database](#database)
   * [📸 Screenshots](#screenshots)
+  * [📸 Demo](#demo)
   * [Author](#author)
 
 ## Configuration and Setup
@@ -76,4 +77,28 @@ This project was created using the following technologies.
 ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/6df69883-a909-420a-b2c6-d248226f7408)
 
 ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/78a85525-cbc2-4d16-8551-de6a672b1c22)
+
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/013ceafb-94bc-46d9-bd8d-88dcd881559f)
+
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/1e6cbca9-9e02-4763-b5fe-209e9691219d)
+
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/b83a69ba-4471-420e-89cd-26a2c5c933bc)
+
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/c5c3d278-f092-405f-8418-2bd94db36165)
+
+
+admin
+
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/72cb6f95-25c7-4c43-b92f-c59390a61ff4)
+
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/f7344eb3-0288-4298-ade5-a28cc80b2ae9)
+
+
+
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/cbab1e9f-30a4-45c5-ae84-6e154ca8b43d)
+
+
+
+
+
 
