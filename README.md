@@ -73,4 +73,7 @@ This project was created using the following technologies.
 
  ##  Screenshots
 
- ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/c2c238ee-a3ee-4358-921d-544d0f16b8a1)
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/6df69883-a909-420a-b2c6-d248226f7408)
+
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/78a85525-cbc2-4d16-8551-de6a672b1c22)
+
