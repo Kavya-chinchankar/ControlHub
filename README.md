@@ -93,7 +93,9 @@ admin
 
 ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/f7344eb3-0288-4298-ade5-a28cc80b2ae9)
 
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/f08dfaa4-b7f4-4068-baf7-b1d6fb7b0f0b)
 
+![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/c26c2c87-8346-4a24-bf24-8c6fb3ffe82a)
 
 ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/cbab1e9f-30a4-45c5-ae84-6e154ca8b43d)
 
