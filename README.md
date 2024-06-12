@@ -11,7 +11,6 @@ Fullstack open source By Admin User Management System application made with Mong
       - [Database](#database)
   * [📸 Screenshots](#screenshots)
   * [Author](#author)
-  * [License](#license)
 
 ## Configuration and Setup
 
@@ -53,3 +52,25 @@ $ npm run  start (to start the aplication)
 
 <br/>
 
+##  Technologies used
+
+This project was created using the following technologies.
+
+- [Css](https://developer.mozilla.org/en-US/docs/Web/CSS) - For User Interface
+- [Node js](https://nodejs.org/en/) -A runtime environment to help build fast server applications using JS
+- [Express js](https://www.npmjs.com/package/express) -The server for handling and routing HTTP requests
+- [Mongoose](https://mongoosejs.com/) - For modeling and mapping MongoDB data to JavaScript
+- [express-async-handler](https://www.npmjs.com/package/express-async-handler) - Simple middleware for handling exceptions inside of async express routes and passing them to your express error handlers 
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) - For authentication
+- [Bcryptjs](https://www.npmjs.com/package/bcryptjs) - For data encryption
+- [Nodemailer](https://nodemailer.com/about/) - Send e-mails from Node.js
+- [Dotenv](https://www.npmjs.com/package/dotenv) - Zero Dependency module that loads environment variables
+- [multer](https://www.npmjs.com/package/multer) - Node.js middleware for uploading files 
+
+####  Database 
+
+ - [MongoDB ](https://www.mongodb.com/) - It provides a free cloud service to store MongoDB collections
+
+ ##  Screenshots
+
+ ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/c2c238ee-a3ee-4358-921d-544d0f16b8a1)
