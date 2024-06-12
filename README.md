@@ -45,9 +45,13 @@ $ npm run  start (to start the aplication)
 
 - User registration and login
 - Admin registration and login
-- User searching  and pagination 
-- CRUD operations (create, read, update and delete by Admin)
+- Sending Mail for Varification
+- User Profile and Editing
 - Upload user ımages to the server
+- CRUD operations (create, read, update and delete by Admin)
+- User searching  and pagination by Admin
+- Export the user Details using Excel
+- Export the user Details using PDF
 - Responsive Design
 
 <br/>
