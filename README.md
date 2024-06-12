@@ -78,11 +78,13 @@ This project was created using the following technologies.
 - [Dotenv](https://www.npmjs.com/package/dotenv) - Zero Dependency module that loads environment variables
  
 
-####  Database 
+###  Database 
 
  - [MongoDB ](https://www.mongodb.com/) - It provides a free cloud service to store MongoDB collections
 
  ##  Screenshots
+
+###  User 
 
 ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/6df69883-a909-420a-b2c6-d248226f7408)
 
@@ -97,7 +99,7 @@ This project was created using the following technologies.
 ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/c5c3d278-f092-405f-8418-2bd94db36165)
 
 
-admin
+### Admin
 
 ![image](https://github.com/Kavya-chinchankar/ControlHub/assets/112461154/72cb6f95-25c7-4c43-b92f-c59390a61ff4)
 
@@ -111,7 +113,7 @@ admin
 
 ## Demo
 
-Click here [CONTROLHUB](https://controlhubkkc.onrender.com)
+Click here [CONTROLHUB](https://controlhubkkc.onrender.com) To Go Live.
 
 ## Author
 
